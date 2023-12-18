@@ -1,0 +1,225 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #fefae0;
+    
+}
+body > .main-container {
+    min-height: calc(100vh - 205px); /
+}
+
+/* Navigation Bar CSS */
+.nav-bar{
+    background-color: #bc6c25;
+}
+
+.logo{
+    color: #f4f4f4;
+    font-weight:  bold;
+    padding-left: 5rem;
+}
+.nav {
+    gap: 1.5rem;
+    padding-right: 5rem
+}
+.nav-link {
+    color: #f4f4f4;
+    cursor: pointer;
+    transition: font-size 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+.nav-link:hover {
+    color: #000000;
+    transform: scale(1.1);   
+}
+
+/* Header Title CSS */
+.main-container{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width:  100%; 
+}
+.header-title{
+    color: #283618;
+    font-size: 3rem;
+}
+
+.post {
+    border: 1px solid #dddddd; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    max-width: 900px; 
+    width: 100%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.submitted-title{
+    margin : 1.5rem;
+    
+}
+.submitted-title h2 {
+    color: #606c38; 
+    font-size: 2rem;      
+    margin-bottom: 1rem; 
+    text-transform: uppercase;
+    word-wrap: break-word;
+    
+}
+
+.submitted-content{
+    margin: 1rem;
+    padding: 1rem;
+}
+.submitted-content p {
+    color: #666666; 
+    line-height: 1.6; 
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-bottom: 1rem; /* Spacing between paragraphs */
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.submitted-content p::first-letter {
+    float: left;
+    font-size: 2rem;
+    line-height: 1;
+    margin-right: 0.1em;
+    font-weight: bold;
+    color: #fefae0; 
+    text-transform: uppercase;
+}
+
+/* Main container for the form */
+.main-post-container {
+    max-width: 900px; 
+    margin: 2rem auto; 
+    padding: 1rem;
+    background: #dda15e; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 8rem;
+}
+
+
+.post-container {
+    margin-bottom: 1rem; 
+}
+
+.post-container label {
+    display: block; /* Make label take the full width */
+    margin-bottom: 0.5rem; 
+    color: #fff; 
+    font-size: 1.5rem; 
+}
+
+.post-container input[type="text"],
+.post-container textarea {
+    width: 100%; 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 1rem; 
+}
+
+.post-container textarea {
+    resize: vertical; 
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #fefae0; /* Bootstrap primary color */
+    color: #283618;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #bc6c25; /* A darker shade for the hover state */
+}
+.about-container {
+    background-color: #fafafa; 
+    border-radius: 8px;
+    padding: 2rem;
+    
+    margin: 2rem auto;
+    margin-bottom: 10rem;
+    max-width: 600px; 
+     
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.about-title h2 {
+    color: #333; 
+    font-size: 2rem; 
+    margin-bottom: 2rem; 
+    text-align: center; 
+}
+
+.about p {
+    color: #555; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+    text-align: justify; 
+}
+
+footer {
+    background-color: #283618; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem 0; 
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 1rem; 
+}
+
+footer p {
+    margin: 0.5rem 0; 
+    font-size: 0.875rem; 
+}
+
+footer a {
+    color: #0d6efd; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 600px) {
+    .post {
+        max-width: 100%; 
+        padding: 10px; 
+    }
+    .submitted-title h2 {
+        font-size: 1.2rem; 
+    }
+    .submitted-content p {
+        font-size: 1rem; 
+    }
+}
