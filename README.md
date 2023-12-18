@@ -19,4 +19,4 @@ Here's a step-by-step guide to setting up the development environment:
 **Clone the Repository**
    
 Clone the project to your local machine:
-git clone https://github.com/YourUsername/YourRepositoryName.git
+git clone [https://github.com/YourUsername/YourRepositoryName.git](https://github.com/ThawZin-Raymond/Simple-Blog-Project.git)https://github.com/ThawZin-Raymond/Simple-Blog-Project.git
