@@ -58,6 +58,7 @@ body > .main-container {
     border: 1px solid #dddddd; 
     border-radius: 8px; 
     padding: 20px; 
+    
     margin-bottom: 20px; 
     background-color: #f9f9f9; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -106,12 +107,13 @@ body > .main-container {
 /* Main container for the form */
 .main-post-container {
     max-width: 900px; 
-    margin: 2rem auto; 
+    margin: 2rem auto;
     padding: 1rem;
     background: #dda15e; 
     border-radius: 8px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
 }
 
 
